@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--header-background);
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span {
+    color: var(--primary-font);
+}
+
+.header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: var(--secondary-font);
+}

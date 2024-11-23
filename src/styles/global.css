@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #23263a;
+  --header-background: #212336;
+  --primary-font: #ff4a57;
+  --secondary-font: #c1c1c7;
+  --teciary-font: #b2b2b2;
+  --white: #fff;
+}
+
+.container {
+  padding: 10rem 8rem;
+}
+
+body {
+  font-family: "acumin-pro", sans-serif;
+  background-color: var(--background-color);
+  color: var(--secondary-font);
+}
