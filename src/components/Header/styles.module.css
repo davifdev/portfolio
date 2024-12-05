@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--header-background);
-    padding: 1rem;
+    padding: 1rem 7rem;
+    border-bottom: 1px solid var(--secondary-font);
 }
 
 .infos {
