@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-background);
+    padding: 1rem;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.infos li {
+    list-style: none;
+}
+
+.infos li a {
+    color: var(--secondary-font);
+    text-decoration: none;
+}
