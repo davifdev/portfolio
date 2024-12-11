@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--header-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+
+
+}
+
+.icons  svg {
+    color: var(--secondary-font);
+}
+
+.copyright {
+    border-top: 1px solid var(--secondary-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.copyright h2 {
+    color: var(--primary-font);
+}

@@ -1,0 +1,51 @@
+.skills {
+    margin-top: 6rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    height: 100vh;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.left .tools {
+    background-color: var(--header-background);
+    padding: 2rem;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.left .tools svg {
+    font-size: 2rem;
+}
+
+.right {
+ 
+    display: flex;
+    flex-direction: column;
+}
+
+.dev {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}

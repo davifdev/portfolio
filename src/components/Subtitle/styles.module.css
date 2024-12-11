@@ -1,0 +1,15 @@
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle h2 {
+    font-size: 2.5rem;
+    margin-bottom: .3rem;
+}
+
+.separator {
+    width: 100px;
+    height: 4px;
+    background-color: var(--primary-font);
+}

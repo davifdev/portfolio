@@ -6,6 +6,7 @@ const About = () => {
         
       <div className={styles.left}>
         <span>
+          <img src="arrow.png" className={styles.arrow} />
           Olá, eu sou <strong>Davi Fernandes</strong>
         </span>
         <h1>
@@ -17,7 +18,7 @@ const About = () => {
       </div>
 
       <div className={styles.right}>
-        <img src="/progamador.gif" alt="um gif ilustrativo de um progamador" />
+        <img src="/bg.png" alt="um gif ilustrativo de um progamador" />
       </div>
     </section>
   );

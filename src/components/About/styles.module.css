@@ -2,18 +2,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80vh;
 }
 
 .left {
-    width: 50%;
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 13px; 
+    left: -14%;
 }
 
 .left h1 {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .left span {
     font-size: 2rem;
+}
+
+.left strong {
+    color: var(--primary-font);
 }
 
 .left button {

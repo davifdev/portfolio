@@ -7,7 +7,7 @@
 :root {
   --background-color: #23263a;
   --header-background: #212336;
-  --primary-font: #ffbb00;
+  --primary-font: #00adb5;
   --secondary-font: #c1c1c7;
   --terciary-font: #b2b2b2;
   --white: #fff;
@@ -19,5 +19,10 @@ body {
   background-color: var(--background-color);
   font-family: "Roboto", serif;
   color: var(--secondary-font);
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
