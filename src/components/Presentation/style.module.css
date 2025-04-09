@@ -1,0 +1,46 @@
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.presentation .left .right {
+  width: 100%;
+}
+
+.presentation .left {
+  position: relative;
+}
+
+.vector {
+  position: absolute;
+  left: -89px;
+  top: 8px;
+}
+
+.presentation .left h2 {
+  font-size: 1.5rem;
+  color: var(--second-fontColor);
+}
+
+.presentation .left h1 {
+  max-width: 300px;
+  font-size: 6rem;
+  margin: 1rem 0;
+  color: var(--primary-fontColor);
+}
+
+.presentation .left p {
+  font-size: 2rem;
+  color: var(--second-fontColor);
+}
+
+.presentation .left button {
+  background: var(--primary-fontColor);
+  padding: 1.5rem;
+  color: var(--second-fontColor);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+}

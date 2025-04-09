@@ -1,0 +1,29 @@
+.aboutMe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 20rem;
+}
+
+.aboutMe .right {
+  color: var(--second-fontColor);
+  background-color: var(--second-background);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.aboutMe .right h3 {
+  font-size: 1.5rem;
+}
+
+.aboutMe .right h2 {
+  font-size: 3rem;
+  color: var(--primary-fontColor);
+  margin-top: 1rem;
+}
+
+.aboutMe .right p {
+  font-size: 1.8rem;
+  max-width: 600px;
+  margin-top: 1.5rem;
+}

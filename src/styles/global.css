@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-background: #222831;
+  --second-background: #393e46;
+  --primary-fontColor: #00adb5;
+  --second-fontColor: #eeeeee;
+  --border: #363c44;
+  --font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: var(--primary-background);
+  font-family: var(--font-family);
+}
+
+.container {
+  width: 100%;
+  max-width: 124rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

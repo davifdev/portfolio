@@ -1,0 +1,23 @@
+.header {
+  border-bottom: 1px solid var(--border);
+  font-size: 1.6rem;
+  color: var(--second-fontColor);
+}
+
+.navigation  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.navigation .infos {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+}
+
+.navigation .infos li a {
+  color: inherit;
+}
