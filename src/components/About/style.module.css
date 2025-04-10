@@ -1,9 +1,21 @@
 .aboutMe {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding-top: 20rem;
 }
+
+.aboutMe h1 {
+  font-size: 4rem;
+  border-bottom: 5px solid var(--primary-fontColor);
+  color: var(--primary-fontColor);
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+} 
 
 .aboutMe .right {
   color: var(--second-fontColor);

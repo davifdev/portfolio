@@ -13,8 +13,9 @@ export const Presentation = () => {
             <h2>Olá, eu sou Davi Fernandes 👋</h2>
             <h1>Desenvolvedor Front-end</h1>
             <p>
-              Ajudo pequenos negócios e designers a colocarem suas ideias em
-              prática.
+              Desenvolvedor Front-end especializado em React, HTML, CSS,
+              JavaScript e TypeScript. Ajudo pequenos negócios e designers a
+              transformarem suas ideias em realidade. Vamos criar algo juntos?
             </p>
             <button>Vamos criar algo juntos</button>
           </div>

@@ -34,12 +34,16 @@
 .presentation .left p {
   font-size: 2rem;
   color: var(--second-fontColor);
+  width: 100%;
+  max-width: 500px;
+  line-height: 28px;
 }
 
 .presentation .left button {
   background: var(--primary-fontColor);
   padding: 1.5rem;
   color: var(--second-fontColor);
+  font-size: 1.6rem;
   font-weight: bold;
   border-radius: 0.5rem;
   margin-top: 3rem;
